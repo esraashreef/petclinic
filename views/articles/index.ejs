@@ -1,0 +1,59 @@
+
+
+
+<%- include('../components/header') -%>
+
+    
+    <div class="container">
+        <h1>blog container</h1>
+        <a href="/articles/new" class=" btn btn-info new-ar" style="margin-top: 100px;"> New Article </a>
+        
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+       <% articles.forEach(article =>  {  %>
+        <div class="col">
+        <div class="card  border-info mb-3" style="width: 18rem; margin-bottom: 50px;margin-top: 40px;">
+            
+            <div class="card-body">
+              <img src= "<%= article.imageURL %>" class="card-img-top" alt="..." style="width: 250px; object-fit: fill; padding-bottom: 20px; height: 200px;">
+              <h3 class="card-title"><%= article.title %></h3>
+              <p class="card-text"><small class="text-muted"><%= article.date.toLocaleDateString() %></small></p>
+
+              <p class="card-text mb-2">
+                <%= article.description.substring(0, 100) %>
+              </p>
+              <a href="articles/<%= article.slug %>" class="btn btn-primary">read more</a>
+              <a href="/articles/edit/<%= article.id %>"  class="btn btn-info">edit</a>
+              <form action="/articles/<%-article.id%>?_method=DELETE" method="POST" class="d-inline">
+                <button type="submit" class="btn btn-danger"> Delete</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+       <% }) %>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  </body>
+</html>

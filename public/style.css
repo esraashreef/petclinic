@@ -1,0 +1,267 @@
+.logo img {
+    height: 100%;
+    width: 400px;
+    object-fit: fill;
+    
+}
+
+.logo {
+    margin-top: 0px;
+    padding-top: 0px ;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    height: 120px;
+}
+
+
+.navbar {
+    padding-top: 5px;
+    padding-left: 5px;
+   
+    height: 100px;
+
+    
+}
+
+.dimg{
+    border-radius: 50%;
+
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    object-fit: fill;
+    
+    border: 7px solid #e3f2fd ;
+}
+.btn{
+    margin-top: 35px;
+}
+
+.dogWell{
+    margin-top: 135px;
+    padding-top: 50px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.catWell{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px
+
+
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav-item:hover {
+    background-color: #4682b4;
+}
+.nav-item {
+    font-size: 20px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 615px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    color: black;
+}
+.carousel-caption h1 {
+    font-size: 3.5rem;
+    animation-delay: 1s;
+}
+#title {
+    font-size: 6rem;
+}
+.carousel-caption p {
+    font-size: 2rem;
+}
+.jumbotron {
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 8 rem;
+}
+.card {
+    margin: 0 auto;
+    /* Added */
+    
+    float: none;
+    /* Added */
+    
+    margin-bottom: 10px;
+    /* Added */
+}
+.container-fluid {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.logoend {
+    width: 200px;
+    height: 200px;
+}
+.icon {
+    color: #89b4e6;
+    margin-bottom: 1rem;
+    size: 4 rem;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.dogs {
+    width: 99%;
+    height: 420px;
+}
+#footer {
+    background-color: #89d2e7;
+}
+
+
+.front{
+    
+    
+    margin-top: 105px;
+    padding-top: 50px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+        
+}
+
+.front h1{
+    font-size: 6rem;
+    font-style: italic ;
+    color: #eef773e0;
+    font-weight: bold;
+}
+.front p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.play{
+    max-width: 100%;
+   object-fit: fill;
+}
+
+
+.doglodge{ 
+    
+    
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    text-align: left;
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+
+.doglodge h1{
+    font-size: 4rem;
+    color: rgb(236, 176, 106);
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.doglodge p{
+    font-size: 1.3rem;
+}
+.dkimg{
+    object-fit: fill;
+}
+
+.doglodge img{
+    border-radius: 50%;
+    object-fit: fill;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    margin-left:50px ;
+    
+    border: 5px solid rgb(241, 221, 197) ;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+
+    margin-left: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .t{
+      text-align: center;
+      padding-bottom: 30px;
+      color: rgb(236, 176, 106);;
+
+     padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 20px;
+  }
+  .b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .t1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(236, 176, 106);;
+    font-size:3.2rem ;
+   margin-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+   
+}
+
+.card-deck{
+  width: 95%;
+  margin-left: 3%;
+    
+   
+}
